@@ -1,0 +1,9 @@
+# Notebook dependencies; versions are intentionally unpinned.
+# A fully reproduced environment has not yet been recorded.
+torch
+numpy
+matplotlib
+graphviz
+ipywidgets
+scipy
+jupyterlab

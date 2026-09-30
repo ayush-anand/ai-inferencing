@@ -1,0 +1,20 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Downloaded datasets and generated model artifacts
+notebooks/names.txt
+notebooks/input.txt
+*.pt
+*.pth
+checkpoints/
+runs/
+
+# Local credentials
+.env
+.env.*
+!.env.example
