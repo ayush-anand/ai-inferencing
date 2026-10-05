@@ -1,0 +1,10 @@
+# Additional dependencies for notebook 04; historical runtime not fully recorded.
+-r requirements.txt
+transformers
+datasets
+accelerate
+peft
+bitsandbytes
+trl
+tensorboard
+safetensors

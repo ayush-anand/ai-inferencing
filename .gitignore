@@ -13,6 +13,9 @@ notebooks/input.txt
 *.pth
 checkpoints/
 runs/
+results/
+artifacts/Llama-2-7b-chat-finetune/
+*.safetensors
 
 # Local credentials
 .env

@@ -42,4 +42,8 @@ For Colab, run the original download cells in the runtime. If graph visualizatio
 
 Notebook code and saved outputs have been preserved. Full training runs have not been rerun as part of organizing this repository. Random seeds appear in the notebooks, but not every experiment or library version is fixed. Hardware, runtime versions, and random state can affect results.
 
-There are no bundled model weights or deployment service. Sampling uses a model trained in the active notebook runtime.
+The first three notebooks require training in the active runtime. The fourth project includes a saved LoRA adapter, but its base model must be downloaded separately. There is no deployment service.
+
+## Fine-tuning notebook
+
+The fourth notebook uses additional packages and assumes a CUDA GPU for its Llama 2 section. Install `requirements-finetuning.txt` in a separate environment if needed. Its training runtime versions are not fully recorded; see [the fine-tuning guide](FINETUNING_QUANTIZATION.md) for settings and compatibility notes. The notebook also contains Colab-only download and TensorBoard cells.

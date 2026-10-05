@@ -45,3 +45,7 @@ The final Transformer retains the earlier class name `BigramLanguageModel`; insp
 The included GPT notebook demonstrates character-level `encode` and `decode`. A standalone BPE tokenizer implementation is not present in the provided files. A future addition could document UTF-8 bytes, frequent-pair merges, a learned vocabulary, and round-trip tests, following the course's tokenizer lesson and [minbpe](https://github.com/karpathy/minbpe).
 
 Other possible additions include reproducible environment versions, short training scripts extracted from the notebooks, and an experiment table with freshly measured results.
+
+## 4. Fine-tuning and quantization: adapt an existing LLM
+
+[Open the notebook](../notebooks/04-pytorch-finetuning-quantization.ipynb) and read the [experiment guide](FINETUNING_QUANTIZATION.md). This stage moves beyond from-scratch models into Qwen inference and Llama 2 adaptation with 4-bit NF4 loading, supervised fine-tuning, and LoRA. A saved adapter archive is included; no new training or evaluation was performed during this repository update.
