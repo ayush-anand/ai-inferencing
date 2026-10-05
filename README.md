@@ -116,3 +116,10 @@ This work follows Andrej Karpathy's teaching and reference implementations. Many
 - [Tiny Shakespeare dataset source](https://github.com/karpathy/char-rnn/tree/master/data/tinyshakespeare)
 
 Refer to the upstream projects for their licenses and attribution requirements. Downloaded datasets remain subject to their original terms.
+
+Videos Reference:
+Andrej Karpathy: https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=C6CmrMEXKt_TVf-F
+
+Nicholas Renotte : https://www.youtube.com/watch?v=D3pXSkGceY0&t=66s
+
+Krish Naik: https://www.youtube.com/watch?v=t-0s_2uZZU0
