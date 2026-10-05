@@ -11,7 +11,6 @@ This repository collects my hands-on notebooks, experiments, and notes: from sca
 | Micrograd | Computational graphs, chain rule, backpropagation, and an MLP built around a scalar `Value` class | [01-micrograd](notebooks/01-micrograd.ipynb) | [Open in Colab](https://colab.research.google.com/github/ayush-anand/ai-inferencing/blob/main/notebooks/01-micrograd.ipynb) |
 | Makemore: BatchNorm & WaveNet | Character embeddings, initialization, activation/gradient diagnostics, batch normalization, and hierarchical context processing | [02-makemore-batchnorm-wavenet](notebooks/02-makemore-batchnorm-wavenet.ipynb) | [Open in Colab](https://colab.research.google.com/github/ayush-anand/ai-inferencing/blob/main/notebooks/02-makemore-batchnorm-wavenet.ipynb) |
 | Build GPT | Character encoding/decoding, a bigram baseline, causal self-attention, Transformer blocks, and autoregressive text generation | [03-build-gpt](notebooks/03-build-gpt.ipynb) | [Open in Colab](https://colab.research.google.com/github/ayush-anand/ai-inferencing/blob/main/notebooks/03-build-gpt.ipynb) |
-
 | Fine-tuning & quantization | Qwen inference, model memory/dtypes, 4-bit NF4 loading, and Llama 2 LoRA fine-tuning | [04-pytorch-finetuning-quantization](notebooks/04-pytorch-finetuning-quantization.ipynb) | [Open in Colab](https://colab.research.google.com/github/ayush-anand/ai-inferencing/blob/main/notebooks/04-pytorch-finetuning-quantization.ipynb) |
 
 Read them in that order. The notebooks retain their original code, explanations, and saved outputs as a record of the learning process.
